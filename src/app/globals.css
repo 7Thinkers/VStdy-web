@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #1e242c;
+
+  --neutral-900: #1e242c;
+  --neutral-600: #414d60;
+  --neutral-400: #8a93a3;
+
+  --brand-blue: #1aacfb;
+  --brand-magenta: #eb14fb;
+  --primary-blue: #0066ff;
+
+  --hero-purple: #622edc;
+  --hero-purple-soft: #d5c6f5;
+
+  --dark-card: #1b1b25;
+  --section-bg: #fafafb;
+  --muted: #6b7280;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-neutral-900: var(--neutral-900);
+  --color-neutral-600: var(--neutral-600);
+  --color-neutral-400: var(--neutral-400);
+  --color-brand-blue: var(--brand-blue);
+  --color-brand-magenta: var(--brand-magenta);
+  --color-primary-blue: var(--primary-blue);
+  --color-hero-purple: var(--hero-purple);
+  --color-dark-card: var(--dark-card);
+  --color-section-bg: var(--section-bg);
+  --color-muted: var(--muted);
+  --font-sans: var(--font-manrope);
+  --font-serif: var(--font-marcellus);
+  --font-display: var(--font-marcellus);
+}
+
+html {
+  scroll-behavior: smooth;
+  /* Offset anchor jumps so headings clear the fixed header */
+  scroll-padding-top: 86px;
+}
+
+@media (max-width: 767px) {
+  html {
+    scroll-padding-top: 66px;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+}
+
+.brand-gradient-text {
+  background: linear-gradient(90deg, var(--brand-blue) 0%, var(--brand-magenta) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Hero background: deep purple top fading to white, with a soft radial wash. */
+.hero-bg {
+  background:
+    radial-gradient(
+      ellipse 90% 70% at 50% -10%,
+      rgba(98, 46, 220, 0.18) 0%,
+      rgba(98, 46, 220, 0) 60%
+    ),
+    linear-gradient(
+      180deg,
+      #622edc 0%,
+      rgba(98, 46, 220, 0.55) 12%,
+      rgba(213, 198, 245, 0.4) 28%,
+      rgba(255, 255, 255, 1) 55%
+    );
+}
