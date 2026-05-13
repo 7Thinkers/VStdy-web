@@ -107,9 +107,9 @@ export default function SevenAgents() {
               </div>
             </div>
             <PhotoCollage
-              smallSrc="/figma/agents/photo-chalkboard.png"
+              smallSrc="/figma/agents/example-photo-1.png"
               smallAlt="Student writing on a chalkboard"
-              bigSrc="/figma/agents/photo-phone-scanning.png"
+              bigSrc="/figma/agents/example-photo-2.png"
               bigAlt="Phone scanning handwritten math"
               badge="THINK SLOW & LEARN FAST"
             />
@@ -119,9 +119,9 @@ export default function SevenAgents() {
           <div className="grid grid-cols-2 items-start gap-12">
             <div className="flex flex-col gap-6">
               <PhotoCollage
-                smallSrc="/figma/agents/photo-girl-smiling.png"
+                smallSrc="/figma/agents/example-photo-5.png"
                 smallAlt="Student smiling, holding paper"
-                bigSrc="/figma/agents/photo-handwriting.png"
+                bigSrc="/figma/agents/example-photo-4.png"
                 bigAlt="Student writing math by hand"
                 badge="SEE IT, HEAR IT, & SAY IT."
               />
