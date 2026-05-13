@@ -70,6 +70,18 @@ export default function Footer() {
           <p>©{new Date().getFullYear()} All rights reserved</p>
           <div className="flex items-center gap-5">
             <a
+              href="https://www.youtube.com/@vstdy"
+              aria-label="VStdy on YouTube"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-neutral-900 transition-opacity hover:opacity-70"
+            >
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <rect x="2.5" y="5.5" width="19" height="13" rx="3.5" stroke="currentColor" strokeWidth="1.8" />
+                <path d="M10 9.5v5l4.5-2.5L10 9.5z" fill="currentColor" />
+              </svg>
+            </a>
+            <a
               href="https://www.instagram.com/vstdy"
               aria-label="VStdy on Instagram"
               target="_blank"
@@ -83,15 +95,14 @@ export default function Footer() {
               </svg>
             </a>
             <a
-              href="https://www.youtube.com/@vstdy"
-              aria-label="VStdy on YouTube"
+              href="https://www.tiktok.com/@vstdy"
+              aria-label="VStdy on TikTok"
               target="_blank"
               rel="noopener noreferrer"
               className="text-neutral-900 transition-opacity hover:opacity-70"
             >
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                <rect x="2.5" y="5.5" width="19" height="13" rx="3.5" stroke="currentColor" strokeWidth="1.8" />
-                <path d="M10 9.5v5l4.5-2.5L10 9.5z" fill="currentColor" />
+                <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </a>
           </div>

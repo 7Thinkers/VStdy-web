@@ -1,12 +1,14 @@
 import Image from "next/image";
 
 const videos = [
-  { src: "/figma/videos-pptx/video-5.png", title: "Best Way To Learn: Sleep" },
-  { src: "/figma/videos-pptx/video-6.png", title: "It's Not Your Fault!" },
-  { src: "/figma/videos-pptx/video-7.png", title: "Conquer Fractions with minimum understanding" },
-  { src: "/figma/videos-pptx/video-8.png", title: "How to ace any exam by studying only 20 minutes a day" },
-  { src: "/figma/videos-pptx/video-6-1.png", title: "Transform Numbers To Avoid Mistakes" },
-  { src: "/figma/videos-pptx/video-7-1.png", title: "Be Like Mike — Practice math like basketball" },
+  { src: "/thumbnails/ep1.png", title: "Best Way To Learn: Sleep" },
+  { src: "/thumbnails/ep2.png", title: "It's Not Your Fault!" },
+  { src: "/thumbnails/ep3.png", title: "Conquer Fractions with minimum understanding" },
+  { src: "/thumbnails/ep4.png", title: "How to ace any exam by studying only 20 minutes a day" },
+  { src: "/thumbnails/Ep5.png", title: "Transform Numbers To Avoid Mistakes" },
+  { src: "/thumbnails/frations.png", title: "Be Like Mike — Practice math like basketball" },
+  { src: "/thumbnails/Gemini_Generated_Image_7ubk547ubk547ubk.png", title: "Math Made Fun with VStdy" },
+  { src: "/thumbnails/Gemini_Generated_Image_bxgkicbxgkicbxgk.png", title: "Learn Math with the Panic Squad" },
 ];
 
 export default function StudioPlus() {
@@ -20,15 +22,20 @@ export default function StudioPlus() {
           <h2 className="font-serif text-[clamp(2rem,6vw,70px)] leading-[1.2] text-neutral-900">
             VStdy Studio+
           </h2>
-          <p className="max-w-[628px] text-[15px] leading-[1.5] text-[color:var(--neutral-600)] md:text-base">
+          <p className="max-w-[628px] text-balance text-[15px] leading-[1.5] text-[color:var(--neutral-600)] md:text-base">
             Math concepts come to life through short, animated stories featuring
             the Panic Squad. Our bite-sized videos turn complex Math concepts
             and theories into fun, immersive learning experiences available for{" "}
-            <strong className="font-bold text-[#ff0034]">FREE on YouTube</strong>.
+            <strong className="font-bold text-[color:var(--hero-purple)]">
+              FREE on{" "}
+              <a href="https://www.youtube.com/@vstdy" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:opacity-70">YouTube</a>,{" "}
+              <a href="https://www.instagram.com/vstdy" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:opacity-70">Instagram</a>, and{" "}
+              <a href="https://www.tiktok.com/@vstdy" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:opacity-70">TikTok</a>
+            </strong>.
           </p>
         </div>
 
-        <ul className="grid w-full grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3">
+        <ul className="grid w-full grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4">
           {videos.map((v, i) => (
             <li
               key={v.src}
