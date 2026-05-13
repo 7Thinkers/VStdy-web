@@ -172,17 +172,14 @@ function Circle({ size }: { size: number }) {
 function PhoneMockup({ className = "" }: { className?: string }) {
   return (
     <div
-      className={`relative h-[572px] w-[349px] overflow-hidden rounded-[20px] bg-gradient-to-b from-[#3b4655] via-[#262f3a] to-[#0a1828] shadow-xl ${className}`}
+      className={`relative h-[572px] w-[349px] overflow-hidden rounded-[20px] shadow-xl ${className}`}
     >
-      <div
-        aria-hidden
-        className="absolute inset-x-12 top-[40%] -translate-y-1/2 rounded-md border-2 border-white/60 bg-white/10 px-4 py-3 text-center font-serif text-white"
-      >
-        <span className="text-2xl">Y &minus; 1 = (2Y + 3)x</span>
-      </div>
-      <div
-        aria-hidden
-        className="absolute left-1/2 top-3 h-1 w-16 -translate-x-1/2 rounded-full bg-white/40"
+      <Image
+        src="/figma/app/scanned_image.png"
+        alt="VStdy app screenshot"
+        fill
+        sizes="349px"
+        className="object-cover"
       />
     </div>
   );
