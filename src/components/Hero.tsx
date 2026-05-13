@@ -22,7 +22,7 @@ const photos: Photo[] = [
     src: "/figma/hero/2-violinist.png",
     alt: "Young violinist playing",
     bg: "#F3F0D1",
-    position: "50% 30%",
+    position: "50% 15%",
   },
   {
     src: "/figma/hero/3-panda.png",
