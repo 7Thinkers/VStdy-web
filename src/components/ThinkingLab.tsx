@@ -3,7 +3,7 @@ import Image from "next/image";
 const cards = [
   "Quick and easy way to rebuild the fundamentals of mathematics with the help of specialized AI Agents. Guides students to learn problem solving fundamentals, not just give answers.",
   "Learn all fundamental concepts of math with this accelerated program for total recall. It's never too late to build a solid foundation of mathematics.",
-  "There are four stages in this course. Ranging from Number Theory to high school Algebra 2 and Geometry, allowing students to review or learn fundamentals concepts with AI Agents as personal tutors.",
+  "There are four stages in this course. Ranging from Number Theory to high school Algebra 2 and Geometry, allowing students to review or learn fundamental concepts with AI Agents as personal tutors.",
   "Using Polya's Problem Solving Framework and Seven AI Agents appearing at the appropriate moment to provide students with tutoring for self-paced problem solving.",
 ];
 
