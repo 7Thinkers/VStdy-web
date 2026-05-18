@@ -1,14 +1,16 @@
 import Image from "next/image";
 
 const videos = [
-  { src: "/thumbnails/ep1.jpeg", title: "Best Way To Learn: Sleep" },
-  { src: "/thumbnails/ep2.jpeg", title: "It's Not Your Fault!" },
-  { src: "/thumbnails/ep3.jpeg", title: "Conquer Fractions with minimum understanding" },
-  { src: "/thumbnails/ep4.jpeg", title: "How to ace any exam by studying only 20 minutes a day" },
-  { src: "/thumbnails/ep5.jpeg", title: "Transform Numbers To Avoid Mistakes" },
-  { src: "/thumbnails/ep6.jpeg", title: "Be Like Mike — Practice math like basketball" },
-  { src: "/thumbnails/ep7.jpeg", title: "Math Made Fun with VStdy" },
-  { src: "/thumbnails/ep8.jpeg", title: "Learn Math with the Panic Squad" },
+  { src: "/thumbnails/ep1.jpeg", title: "Panic Squad Begins" },
+  { src: "/thumbnails/ep5.jpeg", title: "It's Not Your Fault!" },
+  { src: "/thumbnails/ep3.jpeg", title: "Chop Chop Numbers" },
+  { src: "/thumbnails/devision-winnie.jpeg", title: "Devious Divisions" },
+  { src: "/thumbnails/ep8.jpeg", title: "Genius Secretes Revealed" },
+  { src: "/thumbnails/sleepy-moka.jpeg", title: "Attention Span" },
+  { src: "/thumbnails/ep2.jpeg", title: "Secretes of Number Sense" },
+  // { src: "/thumbnails/ep4.jpeg", title: "Science" },
+  { src: "/thumbnails/ep6.jpeg", title: "Polya's Framework" },
+  // { src: "/thumbnails/ep7.jpeg", title: "Top Ten Myth Busters" },
 ];
 
 export default function StudioPlus() {
