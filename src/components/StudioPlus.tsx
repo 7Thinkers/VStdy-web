@@ -1,14 +1,14 @@
 import Image from "next/image";
 
 const videos = [
-  { src: "/thumbnails/ep1.png", title: "Best Way To Learn: Sleep" },
-  { src: "/thumbnails/ep2.png", title: "It's Not Your Fault!" },
-  { src: "/thumbnails/ep3.png", title: "Conquer Fractions with minimum understanding" },
-  { src: "/thumbnails/ep4.png", title: "How to ace any exam by studying only 20 minutes a day" },
-  { src: "/thumbnails/Ep5.png", title: "Transform Numbers To Avoid Mistakes" },
-  { src: "/thumbnails/frations.png", title: "Be Like Mike — Practice math like basketball" },
-  { src: "/thumbnails/Gemini_Generated_Image_7ubk547ubk547ubk.png", title: "Math Made Fun with VStdy" },
-  { src: "/thumbnails/Gemini_Generated_Image_bxgkicbxgkicbxgk.png", title: "Learn Math with the Panic Squad" },
+  { src: "/thumbnails/ep1.jpeg", title: "Best Way To Learn: Sleep" },
+  { src: "/thumbnails/ep2.jpeg", title: "It's Not Your Fault!" },
+  { src: "/thumbnails/ep3.jpeg", title: "Conquer Fractions with minimum understanding" },
+  { src: "/thumbnails/ep4.jpeg", title: "How to ace any exam by studying only 20 minutes a day" },
+  { src: "/thumbnails/ep5.jpeg", title: "Transform Numbers To Avoid Mistakes" },
+  { src: "/thumbnails/ep6.jpeg", title: "Be Like Mike — Practice math like basketball" },
+  { src: "/thumbnails/ep7.jpeg", title: "Math Made Fun with VStdy" },
+  { src: "/thumbnails/ep8.jpeg", title: "Learn Math with the Panic Squad" },
 ];
 
 export default function StudioPlus() {
