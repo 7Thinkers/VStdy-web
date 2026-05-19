@@ -2,14 +2,14 @@ import Image from "next/image";
 
 const videos = [
   { src: "/thumbnails/ep1.jpeg", title: "Panic Squad Begins" },
-  { src: "/thumbnails/ep5.jpeg", title: "It's Not Your Fault!" },
-  { src: "/thumbnails/ep3.jpeg", title: "Chop Chop Numbers" },
-  { src: "/thumbnails/devision-winnie.jpeg", title: "Devious Divisions" },
+  // { src: "/thumbnails/ep5.jpeg", title: "It's Not Your Fault!" },
   { src: "/thumbnails/ep8.jpeg", title: "Genius Secretes Revealed" },
-  { src: "/thumbnails/sleepy-moka.jpeg", title: "Attention Span" },
   { src: "/thumbnails/ep2.jpeg", title: "Secretes of Number Sense" },
-  // { src: "/thumbnails/ep4.jpeg", title: "Science" },
+  { src: "/thumbnails/ep3.jpeg", title: "Chop Chop Numbers" },
+  { src: "/thumbnails/ep4.jpeg", title: "Science" },
   { src: "/thumbnails/ep6.jpeg", title: "Polya's Framework" },
+  { src: "/thumbnails/sleepy-moka.jpeg", title: "Attention Span" },
+  { src: "/thumbnails/devision-winnie.jpeg", title: "Devious Divisions" },
   // { src: "/thumbnails/ep7.jpeg", title: "Top Ten Myth Busters" },
 ];
 
