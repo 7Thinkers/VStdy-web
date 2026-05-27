@@ -1,4 +1,5 @@
 import { navItems } from "@/lib/nav";
+import Logo from "@/components/Logo";
 
 export default function Footer() {
   return (
@@ -7,21 +8,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-10 md:grid-cols-3 md:gap-12">
           {/* Logo + address */}
           <div className="flex flex-col gap-5">
-            <FooterLogo />
-            <address className="space-y-1 not-italic text-[16px] leading-[1.5] text-[#282828]">
-              <p>
-                <strong className="font-bold">Corporate Head Office:</strong>{" "}
-                2210 N Orange Blossom Trail, #348
-              </p>
-              <p>Orlando, Florida 32804</p>
-            </address>
+            <Logo />
             <div className="space-y-1 text-[16px] leading-[1.5] text-[#282828]">
-              <p>
-                <strong className="font-bold">Phone:</strong>{" "}
-                <a href="tel:+13218887277" className="hover:text-neutral-900">
-                  1-321-888-7277
-                </a>
-              </p>
               <p>
                 <strong className="font-bold">Email:</strong>{" "}
                 <a href="mailto:info@vstdy.com" className="hover:text-neutral-900">
@@ -109,21 +97,5 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  );
-}
-
-function FooterLogo() {
-  return (
-    <a href="#top" aria-label="VStdy home" className="inline-flex items-center">
-      <span className="font-serif text-[43px] leading-none">
-        <span
-          className="bg-gradient-to-r from-[#1aacfb] to-[#eb14fb] bg-clip-text text-transparent"
-          aria-hidden
-        >
-          V
-        </span>
-        <span className="text-[#1e1e1e]">Stdy</span>
-      </span>
-    </a>
   );
 }

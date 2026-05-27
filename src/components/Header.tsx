@@ -1,8 +1,8 @@
 "use client";
 
-import Link from "next/link";
 import { useEffect, useState } from "react";
 import { navItems } from "@/lib/nav";
+import Logo from "@/components/Logo";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -36,14 +36,7 @@ export default function Header() {
       }`}
     >
       <div className="mx-auto flex h-[66px] max-w-[1440px] items-center justify-between px-5 sm:px-8 md:h-[86px] lg:px-[102px]">
-        <Link
-          href="#top"
-          aria-label="VStdy home"
-          className={`font-serif text-[32px] leading-none tracking-tight transition-colors md:text-[40px] lg:text-[43px] ${ink}`}
-          onClick={() => setOpen(false)}
-        >
-          VStdy
-        </Link>
+        <Logo white={!scrolled && !open} />
 
         {/* Desktop nav */}
         <nav
