@@ -6,6 +6,8 @@ type Agent = {
   name: string;
   role: string;
   desc: string;
+  /** CSS object-position for the circular avatar crop. Defaults to center. */
+  imgPosition?: string;
 };
 
 const topAgents: Agent[] = [
@@ -35,15 +37,16 @@ const topAgents: Agent[] = [
 const bottomAgents: Agent[] = [
   {
     n: "04",
-    img: "/figma/agents/04-sherlock.png",
+    img: "/figma/agents/04-sherlock-v2.png",
     name: "Sherlock",
     role: "Detective Agent",
     desc: "Provides Error Detection on students' solutions.",
+    imgPosition: "80% 50%",
   },
   {
     n: "05",
     img: "/figma/agents/05-director.png",
-    name: "Director",
+    name: "Spielberg",
     role: "Solution Agent",
     desc: "Provides video-based step by step solution.",
   },
@@ -171,6 +174,7 @@ function MobileAgentRow({
           fill
           sizes="114px"
           className="object-cover"
+          style={{ objectPosition: agent.imgPosition }}
         />
       </div>
       <div className="flex flex-col gap-1">
@@ -216,6 +220,7 @@ function DesktopAgentRow({
           fill
           sizes="114px"
           className="object-cover"
+          style={{ objectPosition: agent.imgPosition }}
         />
       </div>
       <div className="flex min-w-0 flex-1 flex-col gap-1">
