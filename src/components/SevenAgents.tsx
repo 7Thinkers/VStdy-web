@@ -15,7 +15,7 @@ const topAgents: Agent[] = [
     n: "01",
     img: "/figma/agents/01-einstein.png",
     name: "Einstein",
-    role: "Orchestrator",
+    role: "Brain Agent",
     desc: "Big Boss LLM. Detects student's ability and tells Agents to appear when needed.",
   },
   {
