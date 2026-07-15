@@ -22,7 +22,7 @@ export default function StudioPlus() {
       <div className="mx-auto flex max-w-[1240px] flex-col items-center gap-8 lg:gap-10">
         <div className="flex flex-col items-center gap-3 text-center">
           <h2 className="font-serif text-[clamp(2rem,6vw,70px)] leading-[1.2] text-neutral-900">
-            VStdy Studio+
+            VStdy Studio
           </h2>
           <p className="max-w-[628px] text-balance text-[15px] leading-[1.5] text-[color:var(--neutral-600)] md:text-base">
             Math concepts come to life through short, animated stories featuring
@@ -30,9 +30,9 @@ export default function StudioPlus() {
             and theories into fun, immersive learning experiences available for{" "}
             <strong className="font-bold text-[color:var(--hero-purple)]">
               FREE on{" "}
-              <a href="https://www.youtube.com/@vstdy" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:opacity-70">YouTube</a>,{" "}
-              <a href="https://www.instagram.com/vstdy" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:opacity-70">Instagram</a>, and{" "}
-              <a href="https://www.tiktok.com/@vstdy" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:opacity-70">TikTok</a>
+              <a href="https://www.youtube.com/@VstdyStudio" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:opacity-70">YouTube</a>,{" "}
+              <a href="https://www.instagram.com/vstdystudio" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:opacity-70">Instagram</a>, and{" "}
+              <a href="https://www.snapchat.com/@vstdyed" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:opacity-70">Snapchat</a>
             </strong>.
           </p>
         </div>
@@ -44,7 +44,7 @@ export default function StudioPlus() {
               className={`group ${i >= 3 ? "hidden sm:block" : ""}`}
             >
               <a
-                href="https://www.youtube.com/@vstdy"
+                href="https://www.youtube.com/@VstdyStudio"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={`Watch on YouTube: ${v.title}`}
@@ -63,7 +63,7 @@ export default function StudioPlus() {
         </ul>
 
         <a
-          href="https://www.youtube.com/@vstdy"
+          href="https://www.youtube.com/@VstdyStudio"
           target="_blank"
           rel="noopener noreferrer"
           className="group inline-flex items-center gap-4 rounded-full border border-[#8ab9ff] bg-white py-1 pl-6 pr-1 text-base font-bold text-[#0066ff] shadow-sm transition-shadow hover:shadow-md"

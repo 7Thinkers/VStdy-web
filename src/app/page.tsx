@@ -24,7 +24,11 @@ const organizationLd = {
     postalCode: "32804",
     addressCountry: "US",
   },
-  sameAs: ["https://www.instagram.com/vstdy", "https://www.youtube.com/@vstdy"],
+  sameAs: [
+    "https://www.instagram.com/vstdystudio",
+    "https://www.youtube.com/@VstdyStudio",
+    "https://www.snapchat.com/@vstdyed",
+  ],
 };
 
 export default function Home() {
