@@ -112,8 +112,8 @@ export default function SevenAgents() {
             <PhotoCollage
               smallSrc="/figma/agents/example-photo-1.png"
               smallAlt="Student writing on a chalkboard"
-              bigSrc="/figma/agents/example-photo-2.png"
-              bigAlt="Phone scanning handwritten math"
+              bigSrc="/figma/agents/photo-temple-tablet.png"
+              bigAlt="Panic Squad characters in togas beside an ancient stone tablet with a screen"
               badge="THINK SLOW & LEARN FAST"
             />
           </div>
